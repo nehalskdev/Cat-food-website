@@ -4,7 +4,9 @@
   background-color: #fffbf3;
   font-family: "Inter";
 }
-
+body {
+  height: 100vh;
+}
 .hide-mobile {
   display: none;
 }
