@@ -111,7 +111,7 @@ p {
     z-index: -2;
   }
 }
-@media (min-width: 868px) {
+@media (min-width: 869px) {
   .wrap {
     margin: 0 4em;
   }
