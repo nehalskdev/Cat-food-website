@@ -4,7 +4,9 @@
   background-color: #fffbf3;
   font-family: "Inter";
 }
-
+body {
+  height: 100vh;
+}
 .hide-mobile {
   display: none;
 }
@@ -25,7 +27,7 @@ nav ul {
   top: 0;
   right: 0;
   text-align: right;
-  padding: 2em;
+  padding: 1.5em;
   transform: translateX(100%);
   transition: transform 0.5 ease-in-out;
 
@@ -38,7 +40,7 @@ nav ul {
       color: black;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1.5rem;
+      font-size: 1rem;
       &:hover {
         color: #ffa800;
         text-decoration: underline;
@@ -90,28 +92,8 @@ p {
     left: 50%;
     transform: translateX(-50%);
   }
-  .inner-circle,
-  .outer-circle {
-    position: absolute;
-    border-radius: 50%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .inner-circle {
-    background: white;
-    width: 300px;
-    height: 300px;
-    z-index: -1;
-  }
-  .outer-circle {
-    background: #e3ae43;
-    width: 500px;
-    height: 500px;
-    z-index: -2;
-  }
 }
-@media (min-width: 868px) {
+@media (min-width: 869px) {
   .wrap {
     margin: 0 4em;
   }
@@ -142,7 +124,7 @@ p {
     position: unset;
     background: none;
     display: flex;
-    gap: 2em;
+    gap: 1em;
     height: auto;
     width: auto;
     transform: translateX(0%);
@@ -165,15 +147,6 @@ p {
   }
   .cat {
     margin-top: 0;
-
-    .inner-circle {
-      width: 1200px;
-      height: 1200px;
-    }
-    .outer-circle {
-      width: 500px;
-      height: 500px;
-    }
   }
   .cat-container {
     position: absolute;
